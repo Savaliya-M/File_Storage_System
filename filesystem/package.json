@@ -1,0 +1,58 @@
+{
+  "name": "filesystem",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jwt-decode": "^3.1.0",
+    "@uppy/core": "^3.7.1",
+    "@uppy/dashboard": "^3.7.1",
+    "@uppy/drag-drop": "^3.0.3",
+    "@uppy/file-input": "^3.0.4",
+    "@uppy/progress-bar": "^3.0.4",
+    "@uppy/react": "^3.2.1",
+    "@uppy/status-bar": "^3.2.5",
+    "@uppy/tus": "^3.4.0",
+    "@uppy/vue": "^1.1.0",
+    "@uppy/webcam": "^3.3.4",
+    "@uppy/xhr-upload": "^3.5.0",
+    "axios": "^1.6.2",
+    "js-cookie": "^3.0.5",
+    "jwt-decode": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.19.0",
+    "react-scripts": "5.0.1",
+    "socket.io-client": "^4.7.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.5"
+  }
+}
